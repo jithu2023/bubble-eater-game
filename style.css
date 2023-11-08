@@ -1,0 +1,589 @@
+body{
+   /* Rectangle 18 */
+
+   
+    
+    
+    
+    background-size: 100%;
+    height: 630px;
+    background-color: black;
+    
+    
+    overflow-x: hidden;
+
+    
+}
+.frame1{
+    display: flex;
+    margin-left: 200px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+}
+.playgame{
+    color: black;
+    background-color: yellow;
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-40%, -20%); 
+    padding: 10px 20px;
+    background-color: #f2ff00;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+   
+
+  
+    font-size:larger;
+}
+a{
+    text-decoration: none;
+}
+.bubbleeater{
+    position: absolute;
+  top: 250px; 
+  left: 500px; 
+}
+.logo{ position: absolute;
+    top: 20px; 
+    left: 230px; 
+}
+
+.aboutme{
+    position: absolute;
+    top:500px;
+    left:970px;
+    padding:10px 20px;
+    background-color: rgb(33,195,217);
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+ 
+.howtoplay{
+    position: absolute;
+    top:550px;
+    left:970px;
+    padding:10px 20px;
+    background-color: rgb(33,195,217);
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+/* Your existing CSS styles here */
+
+/* Add a media query for screens with a maximum width of 500px */
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .frame1 {
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+        
+ /* Allow the image's height to adjust proportionally */
+    }
+
+    .logo{
+        display: none;
+    }
+    .bubbleeater {
+        width: 100%; /* Make images responsive to the screen width */
+        height: auto; 
+        margin-left: 400px;
+        margin-top: 800px;/* Allow images' heights to adjust proportionally */
+    }
+
+    .playgame{
+        margin-left: 850px;
+        margin-top: 900px;
+        width: 500px;
+    }
+    .aboutme{   margin-left: -90px;
+        margin-top: 950px;
+        width: 500px;
+
+    }
+    .howtoplay {
+        margin-left: -90px;
+        margin-top: 950px;
+        width: 500px;
+    }
+
+    body{
+        background-color: #4ed0e2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.frame2{
+    display: flex;
+    margin-left: 200px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+
+}
+.Aboutme{
+    position: absolute;
+    top: 60px; 
+    left: 230px;
+}
+.hello{
+    position: absolute;
+    top: 200px; 
+    left: 300px;
+     
+}
+
+
+
+
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .frame2 {
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+ /* Allow the image's height to adjust proportionally */
+    }
+    .Aboutme{
+        margin-left: 300px;
+        margin-top: 500px;
+    }
+    .hello{
+        margin-left: 300px;
+        margin-top: 500px;
+    }
+    .exit{
+        margin-top: 300px;
+        margin-left: 200px;
+    }
+
+}
+
+
+
+
+.frame3{
+    display: flex;
+    margin-left: 200px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+
+}
+
+.Instruction{
+    position: absolute;
+    top: 60px; 
+    left: 230px;
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        height:0px ;
+    }
+    .frame3 {
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+ /* Allow the image's height to adjust proportionally */
+    }
+.Instruction{
+        margin-left: 300px;
+        margin-top: 500px;
+    }
+   
+    .exit{
+        margin-top: 300px;
+        margin-left: 200px;
+    }
+
+}
+
+
+
+
+
+.frame4{
+    position: relative;
+    display: flex;
+    margin-left: 200px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+}
+.bubble{
+    position: absolute;
+    top: 60px; 
+    left: 350px;
+}
+    
+.fish{
+    position: absolute;
+    top: 60px; 
+    left: 800px;
+}
+.exit{
+    position: absolute;
+    top: 600px; 
+    left: 950px;
+}
+#NicknameButton{
+    position: absolute;
+    background-color: #80d2ff; /* Button background color */
+  color: #000000; /* Button text color */
+  padding:20px 50px; /* Button padding */
+  border: none; /* Remove button border */
+  border-radius: 20px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 10px; 
+  top: 380px; 
+  left: 550px;
+
+}
+#NameButton{
+    position: absolute;
+    background-color:#80d2ff; /* Button background color */
+  color: #000000; /* Button text color */
+  padding: 20px 50px; /* Button padding */
+  border: none; /* Remove button border */
+  border-radius: 20px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 10px; 
+  top: 300px; 
+  left: 550px;
+
+
+
+}
+.start{
+    color: black;
+    background-color: yellow;
+    position: absolute;
+    top: 80%; 
+    left:46%; 
+    transform: translate(-40%, -20%); 
+    padding: 10px 20px;
+    background-color: #f2ff00;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+   
+
+  
+    font-size:larger;
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        height:0px ;
+    }
+
+    .frame4 {
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;    width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+
+    }
+    .bubble{
+        margin-left: 400px;
+        margin-top: 600px;
+    }
+    .fish{
+        margin-left: 400px;
+        margin-top: 600px;
+        
+    }
+    #NameButton{
+        margin-left: 440px;
+        margin-top: 460px;
+        
+
+    }
+    #NicknameButton{
+        margin-left: 430px;
+        margin-top: 520px;
+
+    }
+.start{
+    margin-left: 800px;
+    margin-top: 650px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+.frame5{
+    position: relative;
+    display: flex;
+    margin-left: 220px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+
+}
+.sandt{
+    background-color: #80d2ff;
+}
+.score{
+    color:black;
+    background-color: #0a6b9f;
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.time{
+    color:black;
+    background-color: #0a6b9f;
+    position: absolute;
+    top: 10px; 
+    left: 1150px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+img.animate-from-right {
+    position: absolute;
+    right: -100%; /* Start outside the container from the right */
+    top: 50%;
+    animation: slideFromRight 2s ease-in-out forwards;
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      right: -100%; /* Starting position */
+    }
+    100% {
+      right: 45%; /* Ending position (aligned to the right) */
+    }
+  }
+  @media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        height:0px ;
+    }
+    .frame5{
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+ /* Allow the image's height to adjust proportionally */
+    }
+    img.animate-from-right {
+        position: absolute;
+        right: -100%; /* Start outside the container from the right */
+        top: 50%;
+        animation: slideFromRight 2s ease-in-out forwards;
+      }
+      
+      @keyframes slideFromRight {
+        0% {
+          right: -500%; /* Starting position */
+        }
+        100% {
+          right: -100%; /* Ending position (aligned to the right) */
+        }
+      }
+      .time{
+        margin-left: 600px;
+      }
+
+
+}
+
+
+
+
+
+
+
+
+.frame6{
+    position: relative;
+    display: flex;
+    margin-left: 220px;
+width:900px;
+    height:635px;
+    overflow: hidden;
+    
+}
+/* .score1{
+
+   color:black;
+    background-color: #f6ff00;
+    position: absolute;
+    top: 400px; 
+    left: 500px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+}
+.tag{
+    color:black;
+    background-color: #e1ff00;
+    position: absolute;
+    top: 300px; 
+    left: 500px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+
+} */
+
+.score1 {
+    color: black;
+    background-color:#e1ff00;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .tag {
+    color: black;
+    background-color: #e1ff00;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .score1:hover {
+    transform: scale(1.1);
+  }
+  
+  .tag:hover {
+    transform: scale(1.1);
+  }
+  .playagain{
+    background-color: rgb(47, 151, 237);
+  
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+   
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  .playagain:hover {
+    transform: scale(1.1);
+  }
+  .border{
+    border-radius: 20px;
+  }
+
+
+
+  @media (max-width: 500px) {
+    body{
+        margin: 0;
+        padding: 0;
+        height:0px ;
+    }
+    .frame6{
+        width: 2000px; /* Make the image responsive to the screen width */
+        height: 2000px;
+        margin-left: 0;
+        background-repeat: repeat;
+ /* Allow the image's height to adjust proportionally */
+    }
+    .playagain{
+        margin-top: 900px;
+        margin-right: 500px;
+        margin-left: -120px;
+    }
+    .score1{
+        margin-top: 900px;
+    
+        margin-left: 300px;
+
+    }
+    .tag{
+        margin-top: 900px;
+        margin-left: 300px;
+        
+
+
+    }
+ 
+
+}
+
+
+
+

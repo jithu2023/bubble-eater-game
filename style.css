@@ -150,15 +150,15 @@ width:900px;
 
 }
 .Aboutme{
-    position: absolute;
+    position:absolute;
     top: 60px; 
     left: 230px;
 }
 .hello{
     position: absolute;
     top: 200px; 
-    left: 300px;
-    z-index: 1;
+    left:300px;
+   
      
 }
 

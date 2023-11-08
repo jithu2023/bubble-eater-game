@@ -157,9 +157,8 @@ width:900px;
 .hello{
     position: absolute;
     top: 200px; 
-    left: 300px;
-    z-index: 1;
-     
+    left:300px;
+      
 }
 
 
